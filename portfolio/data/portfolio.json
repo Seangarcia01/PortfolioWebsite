@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Sean",
+    "name": "Sean Geniel Garcia",
     "title": "1st Year - Computer Science Student",
     "occupation": "Student",
     "location": "Cavite, Philippines",
@@ -14,57 +14,91 @@
   "experience": [
     {
       "id": "exp-1",
-      "company": "Stackify Labs",
-      "logo": "/images/companies/stackify.png",
-      "role": "Senior Frontend Developer",
-      "type": "Full-time",
-      "location": "Remote",
-      "startDate": "2023-03",
+      "company": "De La Salle University - Dasmariñas",
+      "logo": "/images/experiences/dlsud_logo.jpg",
+      "role": "Bachelor of Science in Computer Science",
+      "type": "Education",
+      "location": "Onsite/Online",
+      "startDate": "2025-08",
       "endDate": null,
       "current": true,
-      "description": "Lead the frontend architecture for a SaaS analytics dashboard serving 12,000+ users. Migrated legacy React class components to hooks, reducing bundle size by 38%.",
+      "description": "Currently pursuing a degree in Computer Science, focusing on mastering data structures, algorithms, machine learning and intellegent systems.",
       "highlights": [
-        "Built a real-time data visualization module using D3.js and WebSockets",
-        "Mentored 3 junior developers through code reviews and pair programming",
-        "Introduced Storybook for component documentation, cutting design handoff time by 50%"
-      ],
-      "techUsed": ["React", "TypeScript", "Tailwind CSS", "D3.js", "Node.js", "PostgreSQL"]
+        "Lead the design and development of a collaborative Team Portfolio Website as a final project, integrating modern frontend frameworks to showcase collective technical achievements."      ],
+      "techUsed": ["HTML", "CSS", "Python", "React", "Tailwind CSS", "Next.js"]
     },
     {
       "id": "exp-2",
-      "company": "BrightPath Digital",
-      "logo": "/images/companies/brightpath.png",
-      "role": "Full Stack Developer",
-      "type": "Full-time",
-      "location": "Makati, PH",
-      "startDate": "2021-06",
-      "endDate": "2023-02",
-      "current": false,
-      "description": "Built and maintained client-facing web applications for e-commerce and fintech clients across Southeast Asia.",
+      "title": "STI Career Compass",
+      "company": "STI College (Capstone Project)",
+      "role": "Back-end Developer / Collaborator",
+      "location": "On-site",
+      "type": "Web Application",
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "description": "A career guidance platform designed to assist incoming senior high school students in selecting the academic strand that best aligns with their skills and interests.",
       "highlights": [
-        "Developed a payment gateway integration supporting GCash, Maya, and Stripe",
-        "Optimized PostgreSQL queries reducing average API response time from 800ms to 120ms",
-        "Shipped 6 production apps with zero critical incidents in 18 months"
+        "Collaborated in a team environment to design and deploy a functional 'Career Compass' for prospective students.",
+        "Developed an interactive assessment tool that categorizes users into ICT, STEM, HUMSS, or Culinary Arts strands.",
+        "Integrated a responsive UI/UX to ensure accessibility for students browsing via mobile devices."
       ],
-      "techUsed": ["Next.js", "Laravel", "MySQL", "Redis", "AWS S3", "Docker"]
+      "techUsed": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Vercel"]
     },
     {
       "id": "exp-3",
-      "company": "Freelance",
-      "logo": null,
-      "role": "Web Developer",
-      "type": "Freelance",
+      "company": "Harvard University (edX)",
+      "logo": "portfolio/public/images/experiences/harvard_logo.webp",
+      "role": "CS50x: Introduction to Computer Science",
+      "type": "Education",
       "location": "Remote",
-      "startDate": "2020-01",
-      "endDate": "2021-05",
+      "startDate": "2023-06",
+      "endDate": "2024-06",
       "current": false,
-      "description": "Designed and developed websites and landing pages for small businesses and startups.",
+      "description": "Completed an intensive one-year deep dive into CS50x, revisiting the curriculum in 2024 to master updated web frameworks and advanced logic puzzles.",
       "highlights": [
-        "Delivered 14 projects across food & beverage, real estate, and retail sectors",
-        "Maintained a 5-star Upwork rating across 20+ completed contracts",
-        "Built custom WordPress themes and WooCommerce stores from scratch"
+        "Completed rigorous problem sets involving memory management in C and data structures.",
+        "Developed full-stack web applications using Python, Flask, and SQLite",
+        "Introduced to the foundational algorithms including binary search, bubble sort, and merge sort."
       ],
-      "techUsed": ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "Figma"]
+      "techUsed": ["C", "Python", "SQL", "Flask", "SQLite", "HTML", "CSS", "JavaScript", "Scratch"]
+    },
+
+    {
+      "id": "exp-4",
+      "company": "STI College Tagaytay",
+      "logo": null,
+      "role": "Senior High School — ICT (Mobile App & Web Development)",
+      "type": "Education",
+      "location": "Tagaytay, Philippines",
+      "startDate": "2023-08",
+      "endDate": "2025-07",
+      "current": false,
+      "description": "Completed a specialized technical vocational track focused on mobile application and web development",
+      "highlights": [
+        "Mastered core programming paradigms including Object-Oriented Programming (OOP) in Java.",
+        "Built and deployed mobile applications and responsive websites as part of a hands-on technical curriculum.",
+        "Developed a strong foundation in algorithm design, database management, and asynchronous programming.", "Built hands-on projects including mobile apps for Android and websites using jQuery and CSS."
+      ],
+      "techUsed": ["Java", "C#", ".NET", "Android OS", "JavaScript", "jQuery", "HTML", "CSS"]
+    },
+
+    {
+      "id": "exp-5",
+      "company": "BroCode",
+      "logo": null,
+      "role": "Hello World",
+      "type": "Youtube",
+      "location": "Remote",
+      "startDate": "2019-06",
+      "endDate": "2019-06",
+      "current": false,
+      "description": "Started being interested in Coding and its career oppurtunities.",
+      "highlights": [
+        "Learned how to print: 'hello, world!'",
+        "Learned Data Types",
+        "Learned Loop Statements"
+      ],
+      "techUsed": ["Python"]
     }
   ],
 

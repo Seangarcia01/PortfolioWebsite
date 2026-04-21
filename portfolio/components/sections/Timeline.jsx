@@ -64,7 +64,7 @@ export function Timeline() {
         </div>
 
         <h2 className="text-xl font-bold text-neutral-900 dark:text-neutral-50 leading-tight">
-          Work History
+          Timeline
         </h2>
 
         {/* Quick stats row */}
