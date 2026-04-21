@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling when clicking nav anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove the default blue outline on focused elements,
+   replaced by Tailwind's focus-visible:ring utilities */
+* {
+  @apply focus:outline-none;
+}

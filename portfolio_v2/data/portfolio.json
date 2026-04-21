@@ -1,0 +1,282 @@
+{
+  "profile": {
+    "name": "Sean",
+    "title": "1st Year - Computer Science Student",
+    "occupation": "Student",
+    "location": "Cavite, Philippines",
+    "email": "seangenielgarcia@gmail.com",
+    "avatar": "/images/profile.JPG",
+    "bio": "I am currently a Computer Science student based in the Philippines, driven to grow and build my skills in the tech field. I’m actively looking for opportunities like internships, team projects, and hackathons where I can learn and gain real experience. I enjoy challenging myself and stepping out of my comfort zone to improve. My goal is to keep developing my skills and work toward a strong future in the tech industry.",
+    "resumeUrl": "/files/GARCIA_RESUME.pdf",
+    "availableForWork": true
+  },
+
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Stackify Labs",
+      "logo": "/images/companies/stackify.png",
+      "role": "Senior Frontend Developer",
+      "type": "Full-time",
+      "location": "Remote",
+      "startDate": "2023-03",
+      "endDate": null,
+      "current": true,
+      "description": "Lead the frontend architecture for a SaaS analytics dashboard serving 12,000+ users. Migrated legacy React class components to hooks, reducing bundle size by 38%.",
+      "highlights": [
+        "Built a real-time data visualization module using D3.js and WebSockets",
+        "Mentored 3 junior developers through code reviews and pair programming",
+        "Introduced Storybook for component documentation, cutting design handoff time by 50%"
+      ],
+      "techUsed": ["React", "TypeScript", "Tailwind CSS", "D3.js", "Node.js", "PostgreSQL"]
+    },
+    {
+      "id": "exp-2",
+      "company": "BrightPath Digital",
+      "logo": "/images/companies/brightpath.png",
+      "role": "Full Stack Developer",
+      "type": "Full-time",
+      "location": "Makati, PH",
+      "startDate": "2021-06",
+      "endDate": "2023-02",
+      "current": false,
+      "description": "Built and maintained client-facing web applications for e-commerce and fintech clients across Southeast Asia.",
+      "highlights": [
+        "Developed a payment gateway integration supporting GCash, Maya, and Stripe",
+        "Optimized PostgreSQL queries reducing average API response time from 800ms to 120ms",
+        "Shipped 6 production apps with zero critical incidents in 18 months"
+      ],
+      "techUsed": ["Next.js", "Laravel", "MySQL", "Redis", "AWS S3", "Docker"]
+    },
+    {
+      "id": "exp-3",
+      "company": "Freelance",
+      "logo": null,
+      "role": "Web Developer",
+      "type": "Freelance",
+      "location": "Remote",
+      "startDate": "2020-01",
+      "endDate": "2021-05",
+      "current": false,
+      "description": "Designed and developed websites and landing pages for small businesses and startups.",
+      "highlights": [
+        "Delivered 14 projects across food & beverage, real estate, and retail sectors",
+        "Maintained a 5-star Upwork rating across 20+ completed contracts",
+        "Built custom WordPress themes and WooCommerce stores from scratch"
+      ],
+      "techUsed": ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "Figma"]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "TaskFlow",
+      "slug": "taskflow",
+      "description": "A Kanban-style project management app with drag-and-drop, real-time collaboration, and AI-powered task suggestions.",
+      "longDescription": "TaskFlow helps small teams manage work visually. Built with Next.js and Supabase for real-time syncing, it features board sharing, deadline tracking, and an OpenAI integration that auto-suggests subtasks.",
+      "thumbnail": "/images/projects/taskflow.png",
+      "images": [
+        "/images/projects/taskflow-1.png",
+        "/images/projects/taskflow-2.png"
+      ],
+      "tags": ["Next.js", "Supabase", "OpenAI", "Tailwind CSS", "TypeScript"],
+      "category": "Web App",
+      "githubUrl": "https://github.com/alexrivera/taskflow",
+      "liveUrl": "https://taskflow-demo.vercel.app",
+      "featured": true,
+      "status": "Live",
+      "year": 2024
+    },
+    {
+      "id": "proj-2",
+      "title": "PesoTrack",
+      "slug": "pesotrack",
+      "description": "A personal finance tracker for Filipinos — log income, expenses, and savings goals with peso-friendly breakdowns.",
+      "longDescription": "PesoTrack helps users visualize spending habits with category-based charts, monthly summaries, and a savings calculator tailored to Philippine financial norms (13th month, SSS, PhilHealth).",
+      "thumbnail": "/images/projects/pesotrack.png",
+      "images": [
+        "/images/projects/pesotrack-1.png"
+      ],
+      "tags": ["React", "Node.js", "MongoDB", "Chart.js", "Express"],
+      "category": "Web App",
+      "githubUrl": "https://github.com/alexrivera/pesotrack",
+      "liveUrl": "https://pesotrack.vercel.app",
+      "featured": true,
+      "status": "Live",
+      "year": 2023
+    },
+    {
+      "id": "proj-3",
+      "title": "DevPulse CLI",
+      "slug": "devpulse-cli",
+      "description": "A terminal tool that summarizes your GitHub activity, open PRs, and commit streaks in one command.",
+      "longDescription": "DevPulse is an npm package that authenticates with the GitHub API and displays a beautiful terminal dashboard using Ink (React for CLI). Useful for daily standups.",
+      "thumbnail": "/images/projects/devpulse.png",
+      "images": [],
+      "tags": ["Node.js", "TypeScript", "GitHub API", "Ink", "npm"],
+      "category": "CLI Tool",
+      "githubUrl": "https://github.com/alexrivera/devpulse-cli",
+      "liveUrl": null,
+      "npmUrl": "https://npmjs.com/package/devpulse-cli",
+      "featured": false,
+      "status": "Open Source",
+      "year": 2023
+    },
+    {
+      "id": "proj-4",
+      "title": "ShopLocal PH",
+      "slug": "shoplocal-ph",
+      "description": "A directory and e-commerce platform connecting local Filipino artisans with buyers across the country.",
+      "longDescription": "Commissioned project for an NGO. Features vendor registration, product listings, PayMongo payment integration, and an admin dashboard for order management.",
+      "thumbnail": "/images/projects/shoplocal.png",
+      "images": [
+        "/images/projects/shoplocal-1.png",
+        "/images/projects/shoplocal-2.png"
+      ],
+      "tags": ["Laravel", "Vue.js", "MySQL", "PayMongo", "Tailwind CSS"],
+      "category": "E-commerce",
+      "githubUrl": null,
+      "liveUrl": "https://shoplocal.ph",
+      "featured": false,
+      "status": "Live",
+      "year": 2022
+    }
+  ],
+
+  "skills": {
+    "frontend": [
+      { "name": "HTML & CSS",         "level": 75, "icon": "html5"      },
+      { "name": "CSS",       "level": 75, "icon": "css"   },
+      { "name": "JavaScript (ES6+)",  "level": 50, "icon": "javascript" },
+      { "name": "React / Next.js",   "level": 15, "icon": "react"      },
+      { "name": "Tailwind CSS",       "level": 15, "icon": "tailwind"   }
+    ],
+    "backend": [
+      { "name": "SQL",         "level": 50, "icon": "sql" },
+      { "name": "Python",            "level": 50, "icon": "python"    },
+      { "name": "Java",          "level": 50, "icon": "java"        },
+      { "name": "Next.js",  "level": 15, "icon": "nodejs"     }
+    ],
+    "tools": [
+      { "name": "VS Code",       "level": 75, "icon": "vscode"     },
+      { "name": "Git & GitHub",       "level": 60, "icon": "github"     },
+      { "name": "IntelliJ IDEA",       "level": 50, "icon": "intellij"     },
+      { "name": "PyCharm",       "level":50, "icon": "pycharm"     },
+      { "name": "Vercel / Netlify",   "level": 40, "icon": "vercel"     },
+      { "name": "Github Copilot",       "level": 40, "icon": "copilot"     }
+    ]
+  },
+
+  "techStack": [
+    { "name": "React",       "icon": "react",       "url": "https://react.dev"          },
+    { "name": "Next.js",     "icon": "nextjs",      "url": "https://nextjs.org"         },
+    { "name": "Tailwind",    "icon": "tailwind",    "url": "https://tailwindcss.com"    },
+    { "name": "CSS",    "icon": "css",    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"       },
+    { "name": "Javascript",       "icon": "javascript",       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"          },
+    { "name": "Vercel",      "icon": "vercel",      "url": "https://vercel.com"         }
+  ],
+
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "AI Engineer for Developers Associate Certificate",
+      "issuer": "DataCamp",
+      "issuerLogo": "/images/certs/AIEDA0013446576308.png",
+      "issueDate": "2026-01",
+      "expiryDate": "2028-01",
+      "credentialId": "AIEDA0013446576308",
+      "verifyUrl": "https://www.datacamp.com/certificate/AIEDA0013446576308",
+      "badgeUrl": "/images/certs/AI_ENGINEER_BADGE.png",
+      "featured": true
+    },
+    {
+      "id": "cert-2",
+      "title": "Digital Safety and Security Awareness",
+      "issuer": "Cisco Networking Academy",
+      "issuerLogo": "/images/certs/Digital_Safety_and_Security_Awareness_certificate.png",
+      "issueDate": "2025-09",
+      "expiryDate": null,
+      "credentialId": "COURSERA-META-FE-2023",
+      "verifyUrl": "https://www.netacad.com/certificates/?issuanceId=a4a0fcd4-e665-49ee-a706-6ab4a140081e",
+      "badgeUrl": "/images/certs/Digital_Safety_and_Security_Awareness_Badge.png",
+      "featured": true
+    }
+  ],
+
+  "gallery": [
+    {
+      "id": "gal-1",
+      "src": "/images/gallery/gallery1.jpg",
+      "alt": "First place at Manila Hackathon 2024",
+      "caption": "Won 1st place at Manila Tech Hackathon 2024 🏆",
+      "category": "Event"
+    },
+    {
+      "id": "gal-2",
+      "src": "/images/gallery/gallery2jpg",
+      "alt": "My home office desk setup",
+      "caption": "The daily driver — yes, I have too many monitors.",
+      "category": "Setup"
+    },
+    {
+      "id": "gal-3",
+      "src": "/images/gallery/gallery3.jpg",
+      "alt": "Speaking at PH Dev Summit 2023",
+      "caption": "Gave a talk on React Server Components at PH Dev Summit.",
+      "category": "Speaking"
+    },
+    {
+      "id": "gal-4",
+      "src": "/images/gallery/gallery4.jpg",
+      "alt": "Team photo at BrightPath Digital offsite",
+      "caption": "The BrightPath team after shipping our biggest release.",
+      "category": "Team"
+    },
+    {
+      "id": "gal-5",
+      "src": "/images/gallery/gallery5.jpg",
+      "alt": "Coding at a coffee shop in BGC",
+      "caption": "My other office — Starbucks BGC with extra oat milk.",
+      "category": "Life"
+    },
+    {
+      "id": "gal-6",
+      "src": "/images/gallery/gallery6.jpg",
+      "alt": "Screenshot of DevPulse CLI open source milestone",
+      "caption": "DevPulse hit 500 GitHub stars. Still surreal. 🌟",
+      "category": "Milestone"
+    }
+  ],
+
+  "socials": [
+    {
+      "platform": "GitHub",
+      "handle": "Seangarcia01",
+      "url": "https://github.com/Seangarcia01",
+      "icon": "github",
+      "display": true
+    },
+    {
+      "platform": "LinkedIn",
+      "handle": "Sean Garcia",
+      "url": "https://linkedin.com/in/sean-garcia-b80955313",
+      "icon": "devto",
+      "display": true
+    },
+    {
+      "platform": "Facebook",
+      "handle": "Sean Geniel Garcia",
+      "url": "https://www.facebook.com/seangenielgarcia.2025/",
+      "icon": "facebook",
+      "display": true
+    },
+    {
+      "platform": "Email",
+      "handle": "seangenielgarcia@gmail.com",
+      "url": "mailto:seangenielgarcia@gmail.com",
+      "icon": "mail",
+      "display": true
+    }
+  ]
+}
