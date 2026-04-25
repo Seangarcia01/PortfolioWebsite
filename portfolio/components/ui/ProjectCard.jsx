@@ -131,9 +131,10 @@ export function ProjectCard({ project, index }) {
         <div className="flex items-center justify-between pt-3 border-t border-neutral-100 dark:border-neutral-800">
 
           {/* Status badge — color comes from our statusColors map above */}
-          <span className={`px-2.5 py-1 rounded-full text-[11px] font-medium ${statusColors[status] ?? statusColors["Archived"]}`}>
+          {/* Was removed to better showcase the website cleanly. TODO */}
+          {/* <span className={`px-2.5 py-1 rounded-full text-[11px] font-medium ${statusColors[status] ?? statusColors["Archived"]}`}>
             {status}
-          </span>
+          </span> */}
 
           {/* Links — only render if the URL exists in the JSON */}
           <div className="flex items-center gap-1">

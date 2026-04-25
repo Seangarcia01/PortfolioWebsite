@@ -18,7 +18,7 @@
       "logo": "/images/experiences/dlsud_logo.jpg",
       "role": "Bachelor of Science in Computer Science",
       "type": "Education",
-      "location": "Onsite/Online",
+      "location": "De La Salle University-Dasmarinas, Dasmariñas, Philippines",
       "startDate": "2025-08",
       "endDate": null,
       "current": true,
@@ -32,8 +32,8 @@
       "title": "STI Career Compass",
       "company": "STI College (Capstone Project)",
       "role": "Back-end Developer / Collaborator",
-      "location": "On-site",
-      "type": "Web Application",
+      "location": "Tagaytay, Philippines",
+      "type": "Web App",
       "startDate": "2025-01",
       "endDate": "2025-05",
       "description": "A career guidance platform designed to assist incoming senior high school students in selecting the academic strand that best aligns with their skills and interests.",
@@ -67,7 +67,7 @@
       "id": "exp-4",
       "company": "STI College Tagaytay",
       "logo": null,
-      "role": "Senior High School — ICT (Mobile App & Web Development)",
+      "role": "Senior High School — ICT (Mobile Application & Web Development)",
       "type": "Education",
       "location": "Tagaytay, Philippines",
       "startDate": "2023-08",
@@ -90,7 +90,7 @@
       "type": "Youtube",
       "location": "Remote",
       "startDate": "2019-06",
-      "endDate": "2019-06",
+      "endDate": "2019-07",
       "current": false,
       "description": "Started being interested in Coding and its career oppurtunities.",
       "highlights": [
@@ -105,100 +105,116 @@
   "projects": [
     {
       "id": "proj-1",
-      "title": "TaskFlow",
-      "slug": "taskflow",
-      "description": "A Kanban-style project management app with drag-and-drop, real-time collaboration, and AI-powered task suggestions.",
-      "longDescription": "TaskFlow helps small teams manage work visually. Built with Next.js and Supabase for real-time syncing, it features board sharing, deadline tracking, and an OpenAI integration that auto-suggests subtasks.",
-      "thumbnail": "/images/projects/taskflow.png",
+      "title": "STI Career Compass",
+      "slug": "careercompass",
+      "description": "An interactive guidance platform helping students navigate Senior High School academic strands through personalized assessments.",
+      "longDescription": "Developed as a Work Immersion capstone, Career Compass simplifies the transition to Senior High School. It features a custom-built assessment engine that analyzes student interests and strengths to recommend specialized STI strands like ICT, STEM, HUMSS, or Culinary Arts.",
+      "thumbnail": "/images/projects/career-compass.png",
       "images": [
-        "/images/projects/taskflow-1.png",
-        "/images/projects/taskflow-2.png"
+        "/images/projects/career-compass-1.png",
+        "/images/projects/career-compass-2.png"
       ],
-      "tags": ["Next.js", "Supabase", "OpenAI", "Tailwind CSS", "TypeScript"],
+      "tags": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Vercel"],
       "category": "Web App",
-      "githubUrl": "https://github.com/alexrivera/taskflow",
-      "liveUrl": "https://taskflow-demo.vercel.app",
-      "featured": true,
+      "githubUrl": "https://github.com/03u4nc/Immersion-and-Programming-Colab-PT",
+      "liveUrl": "https://sti-career-compass.vercel.app",
+      "featured": false,
       "status": "Live",
-      "year": 2024
+      "year": 2025
     },
     {
       "id": "proj-2",
-      "title": "PesoTrack",
-      "slug": "pesotrack",
-      "description": "A personal finance tracker for Filipinos — log income, expenses, and savings goals with peso-friendly breakdowns.",
-      "longDescription": "PesoTrack helps users visualize spending habits with category-based charts, monthly summaries, and a savings calculator tailored to Philippine financial norms (13th month, SSS, PhilHealth).",
-      "thumbnail": "/images/projects/pesotrack.png",
-      "images": [
-        "/images/projects/pesotrack-1.png"
-      ],
-      "tags": ["React", "Node.js", "MongoDB", "Chart.js", "Express"],
+      "title": "Team Portfolio Website",
+      "slug": "teamportfoliowebsite",
+      "description": "A terminal tool that summarizes your GitHub activity, open PRs, and commit streaks in one command.",
+      "longDescription": "DevPulse is an npm package that authenticates with the GitHub API and displays a beautiful terminal dashboard using Ink (React for CLI). Useful for daily standups.",
+      "thumbnail": "/images/projects/teamportfoliowebsite.png",
+      "images": [],
+      "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
       "category": "Web App",
-      "githubUrl": "https://github.com/alexrivera/pesotrack",
-      "liveUrl": "https://pesotrack.vercel.app",
-      "featured": true,
+      "githubUrl": "https://github.com/Seangarcia01/CupOfCode",
+      "liveUrl": "https://cup-of-code.vercel.app/",
+      "featured": false,
       "status": "Live",
-      "year": 2023
+      "year": 2026
     },
     {
       "id": "proj-3",
-      "title": "DevPulse CLI",
-      "slug": "devpulse-cli",
-      "description": "A terminal tool that summarizes your GitHub activity, open PRs, and commit streaks in one command.",
-      "longDescription": "DevPulse is an npm package that authenticates with the GitHub API and displays a beautiful terminal dashboard using Ink (React for CLI). Useful for daily standups.",
-      "thumbnail": "/images/projects/devpulse.png",
-      "images": [],
-      "tags": ["Node.js", "TypeScript", "GitHub API", "Ink", "npm"],
-      "category": "CLI Tool",
-      "githubUrl": "https://github.com/alexrivera/devpulse-cli",
-      "liveUrl": null,
-      "npmUrl": "https://npmjs.com/package/devpulse-cli",
+      "title": "Switch Your Search PH",
+      "slug": "switchyoursearchph",
+      "description": "A multimodal advocacy campaign promoting eco-friendly search engines as a simple tool for environmental sustainability.",
+      "longDescription": "Built to align with global Sustainable Development Goals (SDGs), Switch Your Search PH is a digital campaign that educates users on how their browsing habits can plant trees and fund climate action. The project features a responsive interface and resources on using search engines like Ecosia and OceanHero to create measurable environmental impact.",
+      "thumbnail": "/images/projects/switchyoursearchph.png",
+      "images": [
+        "/images/projects/switchyoursearchph-1.png"
+      ],
+      "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
+      "category": "Web App",
+      "githubUrl": "https://github.com/Seangarcia01/switch-your-search-ph",
+      "liveUrl": "https://switch-your-search-ph.vercel.app/index.html",
       "featured": false,
-      "status": "Open Source",
-      "year": 2023
+      "status": "Live",
+      "year": 2026
     },
     {
       "id": "proj-4",
-      "title": "ShopLocal PH",
-      "slug": "shoplocal-ph",
-      "description": "A directory and e-commerce platform connecting local Filipino artisans with buyers across the country.",
-      "longDescription": "Commissioned project for an NGO. Features vendor registration, product listings, PayMongo payment integration, and an admin dashboard for order management.",
-      "thumbnail": "/images/projects/shoplocal.png",
+      "title": "eSOLI: Lost And Found App",
+      "slug": "eSOLI",
+      "description": "A centralized digital directory designed to help users report, track, and recover lost items within a community.",
+      "longDescription": "eSOLI is a community-driven web application that streamlines the lost and found process. It features a searchable directory of reported items, categorized listings, and a simple interface for users to submit recovery claims. This project focuses on solving the common problem of item misplacement through organized digital logging.",
+      "thumbnail": "/images/projects/eSOLI.png",
       "images": [
-        "/images/projects/shoplocal-1.png",
-        "/images/projects/shoplocal-2.png"
+        "/images/projects/eSOLI-1.png",
+        "/images/projects/eSOLI-2.png"
       ],
-      "tags": ["Laravel", "Vue.js", "MySQL", "PayMongo", "Tailwind CSS"],
-      "category": "E-commerce",
-      "githubUrl": null,
-      "liveUrl": "https://shoplocal.ph",
+      "tags": ["HTML", "CSS", "JavaScript", "Netlify"],
+      "category": "Web App",
+      "githubUrl": "https://github.com/Seangarcia01/Lost-and-Found-App",
+      "liveUrl": "https://isoli.netlify.app/",
       "featured": false,
       "status": "Live",
-      "year": 2022
+      "year": 2026
+    },
+    {
+      "id": "proj-5",
+      "title": "Professional Portfolio",
+      "slug": "portfolio",
+      "description": "A portfolio website showcasing my technical expertise, academic milestones, and projects.",
+      "longDescription": "Built with a focus on speed and clean architecture, this portfolio serves as a live demonstration of modern web development practices. It features a dynamic project gallery, an interactive career timeline, and a fully responsive UI/UX designed to highlight my journey from SHS coding fundamentals to my current Computer Science degree at DLSU-D.",
+      "thumbnail": "/images/projects/portfolio.png",
+      "images": [
+        "/images/projects/portfolio-1.png"
+      ],
+      "tags": ["Next.js", "React", "Tailwind CSS", "Vercel"],
+      "category": "Web App",
+      "githubUrl": "https://github.com/03u4nc/portfolio_v2",
+      "liveUrl": "https://seangarcia.vercel.app/",
+      "featured": true,
+      "status": "Live",
+      "year": 2026
     }
   ],
 
   "skills": {
     "frontend": [
       { "name": "HTML & CSS",         "level": 75, "icon": "html5"      },
-      { "name": "CSS",       "level": 75, "icon": "css"   },
+      { "name": "CSS",       "level": 75, "icon": "css"                 },
       { "name": "JavaScript (ES6+)",  "level": 50, "icon": "javascript" },
-      { "name": "React / Next.js",   "level": 15, "icon": "react"      },
+      { "name": "React / Next.js",   "level": 15, "icon": "react"       },
       { "name": "Tailwind CSS",       "level": 15, "icon": "tailwind"   }
     ],
     "backend": [
-      { "name": "SQL",         "level": 50, "icon": "sql" },
-      { "name": "Python",            "level": 50, "icon": "python"    },
-      { "name": "Java",          "level": 50, "icon": "java"        },
-      { "name": "Next.js",  "level": 15, "icon": "nodejs"     }
+      { "name": "SQL",         "level": 50, "icon": "sql"     },
+      { "name": "Python",      "level": 50, "icon": "python"  },
+      { "name": "Java",        "level": 50, "icon": "java"    },
+      { "name": "Next.js",     "level": 15, "icon": "nodejs"  }
     ],
     "tools": [
       { "name": "VS Code",       "level": 75, "icon": "vscode"     },
       { "name": "Git & GitHub",       "level": 60, "icon": "github"     },
       { "name": "IntelliJ IDEA",       "level": 50, "icon": "intellij"     },
       { "name": "PyCharm",       "level":50, "icon": "pycharm"     },
-      { "name": "Vercel / Netlify",   "level": 40, "icon": "vercel"     },
-      { "name": "Github Copilot",       "level": 40, "icon": "copilot"     }
+      { "name": "Vercel / Netlify",   "level": 40, "icon": "vercel"     }
     ]
   },
 
@@ -231,8 +247,8 @@
       "issuerLogo": "/images/certs/Digital_Safety_and_Security_Awareness_certificate.png",
       "issueDate": "2025-09",
       "expiryDate": null,
-      "credentialId": "COURSERA-META-FE-2023",
-      "verifyUrl": "https://www.netacad.com/certificates/?issuanceId=a4a0fcd4-e665-49ee-a706-6ab4a140081e",
+      "credentialId": "fd347a6c-3ea4-4fde-a98e-a637b33997b9",
+      "verifyUrl": "https://www.credly.com/badges/fd347a6c-3ea4-4fde-a98e-a637b33997b9/public_url",
       "badgeUrl": "/images/certs/Digital_Safety_and_Security_Awareness_Badge.png",
       "featured": true
     }
@@ -241,45 +257,31 @@
   "gallery": [
     {
       "id": "gal-1",
-      "src": "/images/gallery/gallery1.jpg",
-      "alt": "First place at Manila Hackathon 2024",
-      "caption": "Won 1st place at Manila Tech Hackathon 2024 🏆",
-      "category": "Event"
+      "src": "/images/gallery/thinkquest_finalist.jpg",
+      "alt": "Tagisan ng Talino (TNT) National Finalist",
+      "caption": "National Finalist for ThinkQuest: Tagisan ng Talino in Legazpi, Albay 🏆",
+      "category": "Academic"
     },
     {
       "id": "gal-2",
-      "src": "/images/gallery/gallery2jpg",
-      "alt": "My home office desk setup",
-      "caption": "The daily driver — yes, I have too many monitors.",
-      "category": "Setup"
+      "src": "/images/gallery/codefest.jpg",
+      "alt": "CodeFest Cluster Participant",
+      "caption": "Representing as a Cluster Participant at the STI CodeFest in Lipa City 💻",
+      "category": "Programming"
     },
     {
       "id": "gal-3",
-      "src": "/images/gallery/gallery3.jpg",
-      "alt": "Speaking at PH Dev Summit 2023",
-      "caption": "Gave a talk on React Server Components at PH Dev Summit.",
-      "category": "Speaking"
+      "src": "/images/gallery/shs_medals.jpg",
+      "alt": "Medals in Graduation of Grade 12",
+      "caption": "Received High Honors, Best in Research, and Programming in our Graduation for Senior High School",
+      "category": "Milestone"
     },
     {
       "id": "gal-4",
-      "src": "/images/gallery/gallery4.jpg",
-      "alt": "Team photo at BrightPath Digital offsite",
-      "caption": "The BrightPath team after shipping our biggest release.",
-      "category": "Team"
-    },
-    {
-      "id": "gal-5",
-      "src": "/images/gallery/gallery5.jpg",
-      "alt": "Coding at a coffee shop in BGC",
-      "caption": "My other office — Starbucks BGC with extra oat milk.",
-      "category": "Life"
-    },
-    {
-      "id": "gal-6",
-      "src": "/images/gallery/gallery6.jpg",
-      "alt": "Screenshot of DevPulse CLI open source milestone",
-      "caption": "DevPulse hit 500 GitHub stars. Still surreal. 🌟",
-      "category": "Milestone"
+      "src": "/images/gallery/graduation_speech.jpg",
+      "alt": "Speaking at Graduation Day for Senior High School",
+      "caption": "Gave a valedictorian speech in Graduation for Senior High School",
+      "category": "Speaking"
     }
   ],
 

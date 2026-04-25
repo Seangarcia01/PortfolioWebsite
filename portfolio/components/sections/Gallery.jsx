@@ -113,17 +113,23 @@ export function Gallery() {
                 className="flex-[0_0_85%] sm:flex-[0_0_60%] lg:flex-[0_0_45%] mr-3 relative"
               >
                 {/* Image container */}
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-neutral-200 dark:bg-neutral-800">
-                  {/* Replace with <Image from next/image> when you have real photos */}
-                  {/* For now, a placeholder gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-neutral-300 to-neutral-400 dark:from-neutral-700 dark:to-neutral-800 flex items-center justify-center">
-                    <span className="text-4xl">🖼️</span>
-                  </div>
+                <div className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-neutral-200 dark:bg-neutral-800">
+                  {/* The actual image from your portfolio.json */}
+                  {item.src ? (
+                    <img
+                      src={item.src}
+                      alt={item.alt || "Gallery Image"}
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center bg-neutral-300 dark:bg-neutral-700">
+                      <span className="text-xs text-neutral-500">Image Missing</span>
+                    </div>
+                  )}
 
                   {/* Caption overlay — slides up on hover */}
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent
-                    p-4 translate-y-2 opacity-0 group-hover:opacity-100 transition-all duration-200">
-                    <p className="text-white text-xs font-medium">{item.caption}</p>
+                  <div className="absolute inset-x-0 bottom-0 translate-y-4 bg-gradient-to-t from-black/80 to-transparent p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                    <p className="text-xs font-medium text-white">{item.caption}</p>
                   </div>
                 </div>
 
